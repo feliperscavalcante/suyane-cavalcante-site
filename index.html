@@ -309,8 +309,8 @@
   /* ---------- Processo ---------- */
   .processo-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 44px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 36px;
   }
   .step .roman {
     font-family: 'Fraunces', serif;
@@ -325,7 +325,10 @@
     margin-bottom: 10px;
   }
   .step p { color: var(--ink-soft); font-size: 0.96rem; }
-  @media (max-width: 860px) {
+  @media (max-width: 960px) {
+    .processo-grid { grid-template-columns: repeat(2, 1fr); gap: 40px 36px; }
+  }
+  @media (max-width: 560px) {
     .processo-grid { grid-template-columns: 1fr; gap: 32px; }
   }
 
@@ -380,8 +383,8 @@
   }
   .cta-final h2 {
     color: var(--cream-on-dark);
-    font-size: clamp(1.4rem, 2.6vw, 1.9rem);
-    max-width: 22ch;
+    font-size: clamp(1.3rem, 2.4vw, 1.75rem);
+    max-width: 34ch;
   }
   .cta-final .btn {
     background: var(--cream-on-dark);
@@ -434,8 +437,8 @@
   <div class="wrap hero-grid">
     <div>
       <p class="hero-eyebrow">Teresina · Bairro Horto</p>
-      <h1>Cada criança tem seu próprio tempo de descobrir o mundo, e um jeito particular de ser acompanhada nesse caminho.</h1>
-      <p class="hero-sub">Atendimento especializado em Terapia Ocupacional com foco em Integração Sensorial, para crianças e suas famílias, em consultório particular no Horto.</p>
+      <h1>Cada criança descobre o mundo de um jeito único. O cuidado começa ao compreender suas necessidades e potencialidades.</h1>
+      <p class="hero-sub">Atendimento especializado em Terapia Ocupacional Infantil, com abordagem em Integração Sensorial de Ayres®, promovendo autonomia e participação da criança nas atividades do dia a dia, em consultório particular no Horto, em Teresina.</p>
       <div class="hero-cta-row">
         <a class="btn" href="https://wa.me/message/ZQJFGOU2Q7CCP1" target="_blank" rel="noopener">Agendar uma conversa</a>
         <span class="hero-cta-note">Agenda reduzida, atendimento individualizado</span>
@@ -456,15 +459,15 @@
     <div class="credentials">
       <div class="credential">
         <span class="num">I</span>
-        <p>Terapeuta ocupacional infantil desde 2021, com pós-graduação em Análise do Comportamento Aplicada (ABA) e certificação em Integração Sensorial de Ayres em andamento, pela University of Southern California (USC).</p>
+        <p>Terapeuta ocupacional infantil desde 2021, com pós-graduação em Análise do Comportamento Aplicada (ABA) e Certificação Internacional em Integração Sensorial de Ayres® pela University of Southern California (USC).</p>
       </div>
       <div class="credential">
         <span class="num">II</span>
-        <p>Atuação integrada com a equipe terapêutica e escolar de cada criança, para que o cuidado se estenda além das sessões.</p>
+        <p>Formação complementar voltada à prática clínica infantil, com capacitações em motricidade fina e escrita, seletividade alimentar, desfralde e uso de instrumentos específicos de avaliação.</p>
       </div>
       <div class="credential">
         <span class="num">III</span>
-        <p>Participação como entrevistada na TV Clube, sobre neurodivergências e o dia a dia das famílias, um convite para falar do que estuda e pratica.</p>
+        <p>Atuação integrada com a família, a equipe terapêutica e a equipe escolar da criança, favorecendo a continuidade do cuidado para além das sessões.</p>
       </div>
     </div>
     <blockquote class="pull">
@@ -478,9 +481,10 @@
   <div class="wrap section-head">
     <p class="section-label">Filosofia de trabalho</p>
     <div class="sobre-text">
-      <p>Atuo como terapeuta ocupacional infantil desde 2021. Trabalho a partir de uma pergunta simples, que sustenta tudo o que faço: o que essa criança está tentando me dizer através do corpo, do movimento, da recusa ou da busca por determinado estímulo? A Integração Sensorial de Ayres me dá o arcabouço técnico para escutar essa linguagem, mas é o encontro com cada criança, na sua particularidade, que orienta as decisões clínicas.</p>
+      <p>Atuo como terapeuta ocupacional infantil desde 2021. Meu olhar parte da compreensão de cada criança, das atividades que fazem parte do seu cotidiano e das dificuldades que podem estar interferindo em sua autonomia, participação e desenvolvimento. A partir da avaliação, busco compreender não apenas o que a criança apresenta, mas como isso repercute no brincar, na escola, no autocuidado e na convivência com outras pessoas.</p>
+      <p>A Integração Sensorial de Ayres® é uma das abordagens que fundamentam minha prática clínica, especialmente quando aspectos do processamento sensorial estão relacionados às dificuldades apresentadas pela criança. O acompanhamento é construído a partir das necessidades individuais e das demandas funcionais identificadas em cada caso.</p>
       <p>Entendo a terapia ocupacional como um processo compartilhado. <strong>A família não é espectadora do tratamento: é parte dele.</strong> Da mesma forma, procuro manter diálogo com a escola e com outros profissionais que acompanham a criança, porque o desenvolvimento acontece em vários ambientes ao mesmo tempo, não apenas dentro do consultório.</p>
-      <p>Atendo em consultório particular, no Horto, com agenda propositalmente reduzida, o que me permite dedicar a cada caso a atenção e o tempo de observação que ele pede.</p>
+      <p>Atendo em consultório particular, no Horto, com uma prática individualizada, pautada nas necessidades de cada criança.</p>
     </div>
   </div>
 </section>
@@ -491,16 +495,16 @@
     <div class="dif-grid">
       <ul class="dif-list">
         <li>
-          <div class="dif-title"><span class="dif-marker"></span>Formação sólida e em atualização constante</div>
-          <p class="dif-desc">Pós-graduação em Análise do Comportamento Aplicada (ABA) e certificação em Integração Sensorial de Ayres em andamento, pela University of Southern California (USC), uma das referências mais respeitadas da abordagem no mundo.</p>
+          <div class="dif-title"><span class="dif-marker"></span>Formação sólida e atualização constante</div>
+          <p class="dif-desc">Pós-graduação em Análise do Comportamento Aplicada (ABA) e Certificação Internacional em Integração Sensorial de Ayres® pela University of Southern California (USC). Possuo formação complementar em Avaliação Estruturada em Integração Sensorial, Avaliação das Competências Motoras no TEA, Dificuldades Alimentares, Motricidade Fina e Escrita e Desfralde.</p>
         </li>
         <li>
           <div class="dif-title"><span class="dif-marker"></span>Rede de cuidado integrada</div>
-          <p class="dif-desc">Comunicação direta com a equipe terapêutica e escolar da criança, para que as estratégias trabalhadas em sessão façam sentido também em casa e na escola.</p>
+          <p class="dif-desc">Comunicação com a família, a equipe terapêutica e a escola, buscando alinhar objetivos e estratégias que favoreçam a participação da criança nos diferentes contextos do seu cotidiano.</p>
         </li>
         <li>
           <div class="dif-title"><span class="dif-marker"></span>Acompanhamento próximo da família</div>
-          <p class="dif-desc">Orientações e devolutivas pensadas para cada família, não um roteiro padrão, porque cada rotina doméstica é diferente.</p>
+          <p class="dif-desc">Orientações e devolutivas individualizadas, considerando as necessidades da criança, sua rotina e a realidade de cada família.</p>
         </li>
       </ul>
       <div>
@@ -519,18 +523,23 @@
     <div class="processo-grid">
       <div class="step">
         <span class="roman">I</span>
-        <h3>Escuta e avaliação inicial</h3>
-        <p>Uma conversa inicial com a família para entender a história da criança, as observações da escola e as questões que motivaram a busca por acompanhamento.</p>
+        <h3>Entrevista inicial com a família</h3>
+        <p>Anamnese com os responsáveis para conhecer a história da criança, sua rotina, suas necessidades e as principais questões que motivaram a busca pela Terapia Ocupacional.</p>
       </div>
       <div class="step">
         <span class="roman">II</span>
-        <h3>Plano terapêutico individualizado</h3>
-        <p>A partir da avaliação, é construído um plano de intervenção específico, fundamentado na Integração Sensorial de Ayres.</p>
+        <h3>Avaliação da criança</h3>
+        <p>Avaliação em consultório, por meio de observações clínicas e aplicação de instrumentos padronizados, selecionados de acordo com as necessidades de cada criança.</p>
       </div>
       <div class="step">
         <span class="roman">III</span>
-        <h3>Acompanhamento contínuo</h3>
-        <p>Sessões regulares, com devolutivas periódicas à família e diálogo constante com a escola e outros profissionais envolvidos.</p>
+        <h3>Devolutiva e plano terapêutico</h3>
+        <p>Encontro com a família para apresentar e explicar os resultados da avaliação, alinhar os objetivos do acompanhamento, construir o plano terapêutico e definir a frequência indicada para as sessões.</p>
+      </div>
+      <div class="step">
+        <span class="roman">IV</span>
+        <h3>Acompanhamento terapêutico</h3>
+        <p>A partir do plano terapêutico, inicia-se o acompanhamento em sessões regulares, com objetivos individualizados e reavaliados ao longo do processo, de acordo com a evolução e as necessidades da criança.</p>
       </div>
     </div>
   </div>
@@ -541,20 +550,24 @@
     <p class="section-label">Perguntas frequentes</p>
     <div class="faq-list">
       <details>
-        <summary>Como saber se meu filho realmente precisa de acompanhamento?</summary>
-        <p>Nem toda dificuldade pontual indica necessidade de terapia, e essa é justamente uma das perguntas que respondo na conversa inicial. Ali, a partir do que a família e a escola observam no dia a dia, é possível avaliar se faz sentido seguir para uma avaliação mais aprofundada.</p>
+        <summary>O que é a Terapia Ocupacional e como ela pode ajudar meu filho?</summary>
+        <p>A Terapia Ocupacional atua para favorecer a autonomia e a participação da criança nas atividades do seu dia a dia. Na infância, o acompanhamento pode envolver dificuldades no brincar, na alimentação, na higiene, no vestuário, nas atividades escolares e na participação social, considerando as necessidades de cada criança.</p>
       </details>
       <details>
-        <summary>Como funciona o investimento no acompanhamento?</summary>
-        <p>O valor é apresentado na conversa inicial, junto com a proposta de frequência das sessões. Ele reflete um atendimento individualizado, com agenda reduzida propositalmente, tempo de observação clínica e devolutivas construídas caso a caso, não um formato padronizado de atendimento em série.</p>
+        <summary>Como acontecem as sessões de Terapia Ocupacional?</summary>
+        <p>Na infância, a terapia acontece por meio do brincar. As brincadeiras e atividades são planejadas de acordo com os objetivos terapêuticos de cada criança, criando oportunidades para desenvolver habilidades importantes para sua autonomia e participação no dia a dia.</p>
       </details>
       <details>
-        <summary>Não tenho disponibilidade para levar meu filho com frequência. Como funciona a rotina de sessões?</summary>
-        <p>Na conversa inicial, alinhamos uma frequência que seja sustentável para a rotina da família, considerando escola, trabalho e outros compromissos. Também é possível conversar sobre orientações que a família aplica em casa entre uma sessão e outra.</p>
+        <summary>É necessário ter um diagnóstico para iniciar a Terapia Ocupacional?</summary>
+        <p>Não. A necessidade de acompanhamento é definida a partir das dificuldades apresentadas pela criança e do impacto delas em sua participação e autonomia no dia a dia. A avaliação pode ser realizada mesmo quando ainda não há um diagnóstico estabelecido.</p>
       </details>
       <details>
-        <summary>O que é, na prática, a Integração Sensorial de Ayres?</summary>
-        <p>É uma abordagem teórica e clínica que compreende como o cérebro organiza as informações recebidas pelos sentidos, e como isso se relaciona ao comportamento, à atenção e ao desenvolvimento motor da criança. É a linha teórica da certificação internacional que curso atualmente pela USC, além da base construída na pós-graduação em Análise do Comportamento Aplicada (ABA).</p>
+        <summary>Como funciona a avaliação em Terapia Ocupacional?</summary>
+        <p>O processo inclui entrevista com os responsáveis, avaliação da criança em consultório, observações clínicas e utilização de instrumentos de avaliação de acordo com cada caso. Ao final, é realizada uma devolutiva à família com os resultados e as recomendações.</p>
+      </details>
+      <details>
+        <summary>O que é a Integração Sensorial de Ayres®?</summary>
+        <p>É uma abordagem utilizada pela Terapia Ocupacional para avaliar e intervir em dificuldades relacionadas ao processamento das informações sensoriais e à forma como elas repercutem na participação da criança em suas atividades cotidianas.</p>
       </details>
     </div>
   </div>
@@ -562,7 +575,7 @@
 
 <section class="cta-final" id="contato">
   <div class="wrap">
-    <h2>Se você tem dúvidas sobre o desenvolvimento do seu filho, uma conversa costuma esclarecer mais do que qualquer texto.</h2>
+    <h2>Se você tem dúvidas sobre o desenvolvimento do seu filho, uma conversa pode ser o primeiro passo para compreender suas necessidades e saber como ajudá-lo.</h2>
     <a class="btn" href="https://wa.me/message/ZQJFGOU2Q7CCP1" target="_blank" rel="noopener">Agendar uma conversa</a>
   </div>
 </section>
